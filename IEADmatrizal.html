@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igreja Evangélica Assembleia de Deus - Alagoas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="/imgs/ieadal.png">
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="/imgs/ieadal.png" alt="Logo" class="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#quemsomos">Sobre nós</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#visitenos">Horários</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#eventos">Eventos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#neemias">Projeto Neemias</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="d-flex align-items-center justify-content-center text-center vh-100">
+            <div class="hero-content">
+                <h1 class="display-3">Um Lugar Para Sua <br><span>Família</span><br> Crescer em <br><span>Fé</span> e <span>Comunhão</span></h1>
+                <a href="#visitenos" class="btn btn-lg btn-custom-light mt-4">Participe de um Culto</a>
+            </div>
+        </section>
+
+        <section id="neemias" class="py-5 text-center bg-light-tan">
+            <div class="container">
+                <h2 class="display-5">Projeto Neemias</h2>
+                <i class="fa-solid fa-cross"></i>
+                <p class="lead">Construção do Templo</p>
+                <img src="/imgs/novo templo.jpeg" alt="Construção do Templo" class="img-fluid rounded my-4">
+                <h3>Participe dessa Campanha doando</h3>
+                <div class="d-flex justify-content-center flex-wrap gap-3 mt-4 align-items-center">
+                    <button type="button" class="btn btn-lg btn-custom-dark" data-bs-toggle="modal" data-bs-target="#qrCodeModal10">10 R$</button>
+                    <button type="button" class="btn btn-lg btn-custom-dark" data-bs-toggle="modal" data-bs-target="#qrCodeModal20">20 R$</button>
+                    <button type="button" class="btn btn-lg btn-custom-dark" data-bs-toggle="modal" data-bs-target="#qrCodeModal30">30 R$</button>
+                    <button type="button" class="btn btn-lg btn-custom-dark" data-bs-toggle="modal" data-bs-target="#qrCodeModal">
+                        Outro valor R$
+                    </button>
+                </div>
+
+                <button type="button" class="btn btn-lg btn-custom-dark mt-4" data-bs-toggle="modal" data-bs-target="#galeriaModal">
+                    <i class="bi bi-images me-2"></i> Ver fotos da construção
+                </button>
+            </div>
+        </section>
+
+        <section id="eventos" class="py-5 text-center bg-tan">
+            <div class="container">
+                <h2 class="display-5 mb-4">Nossos Eventos</h2>
+                
+                <div id="eventoPrincipalCarousel" class="carousel slide shadow-sm" data-bs-ride="carousel">
+                    <div class="carousel-inner rounded"></div>
+                    
+                    <button class="carousel-control-prev" type="button" data-bs-target="#eventoPrincipalCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#eventoPrincipalCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+
+                <button type="button" class="btn btn-lg btn-custom-dark mt-4" data-bs-toggle="modal" data-bs-target="#eventosModal">
+                    <i class="bi bi-camera-fill me-2"></i> Ver mais fotos do evento
+                </button>
+            </div>
+        </section>
+
+        <section id="quemsomos" class="py-5">
+            <div class="container">
+                <div class="row align-items-center g-5">
+                    <div class="col-lg-6">
+                        <h2>Quem somos:</h2>
+                        <p class="lead">Nossa história Igreja Evangélica Assembleia de Deus de Matriz de Camaragibe/AL, tem como propósito ser um lugar onde a Palavra de Deus é pregada, onde a presença do Espírito Santo é real e onde vidas são transformadas. Temos um chamado de esperança e fé em nossa cidade, comprometidos em viver e pregar o evangelho transformador de Jesus Cristo.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="/imgs/IMG_1744 (1).JPG" class="img-fluid rounded" alt="Comunidade da igreja">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="visitenos" class="py-5">
+            <div class="container">
+                <h2 class="display-5 text-center mb-5">Visite-nos</h2>
+                <div class="row g-5">
+                    <div class="col-lg-6">
+                        <h3>Nosso endereço</h3>
+                        <p>Rua São Vicente, Matriz de Camaragibe, Alagoas</p>
+                        <div class="map-container rounded">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3936.417381666878!2d-35.5015338241474!3d-9.35105219080775!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x702f74113b58941%3A0x67343105a38a3d3c!2sR.%20S%C3%A3o%20Vicente%20-%20Centro%2C%20Matriz%20de%20Camaragibe%20-%20AL%2C%2057910-000!5e0!3m2!1spt-BR!2sbr!4v1727094801867!5m2!1spt-BR!2sbr" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h3>Faça Parte da Nossa Família</h3>
+                        <p>A gente sempre tem um lugar guardado e aconchegante para você.</p>
+                        <h4>Horários dos cultos:</h4>
+                        <ul class="list-unstyled">
+                            <li><strong>Domingo:</strong> 19:00 </li>
+                            <li><strong>Quarta-feira:</strong> 19:00 - Culto de Doutrina</li>
+                            <li><strong>Quarta-feira:</strong> 18:30 - Santa ceia <strong>uma vez no mês</strong></li>
+                        </ul>
+                        <a href="https://www.google.com/maps/place/R.+S%C3%A3o+Vicente,+Matriz+de+Camaragibe+-+AL,+57910-000/@-9.159502,-35.536707,2179m/data=!3m1!1e3!4m6!3m5!1s0x700e7bbe23f0b61:0x6e2020bca3545a95!8m2!3d-9.1595018!4d-35.5367071!16s%2Fg%2F1ymt9tp9r?hl=pt-BR&entry=ttu&g_ep=EgoyMDI1MDkyMS4wIKXMDSoASAFQAw%3D%3D" class="btn btn-custom-dark mt-3" target="_blank">
+                            <i class="bi bi-geo-alt-fill me-2"></i>Ver no Google Maps
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer" class="py-5 text-center bg-light-tan">
+        <div class="container">
+            <img src="/imgs/ieadal.png" alt="Logo" class="logo mb-4">
+            <h3>Faça parte da nossa Jornada de Fé</h3>
+            <p class="verse fst-italic my-3">"Lâmpada para os meus pés é tua palavra, e luz para o meu caminho." — Salmos 119:105</p>
+            <div class="social-icons my-4">
+                <a href="https://www.instagram.com/admatrizal/" class="social-icon"><i class="bi bi-instagram"></i></a>
+            </div>
+            <p class="mb-0">© 2024 Igreja Evangélica Assembleia de Deus. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <div class="modal fade" id="qrCodeModal" tabindex="-1" aria-labelledby="qrCodeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="qrCodeModalLabel">Doe via PIX</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Aponte a câmera do seu celular para o QR Code abaixo ou utilize a chave PIX.</p>
+                    <img src="/imgs/qrcoda.jpg" alt="QR Code PIX" class="img-fluid mb-3">
+                    <div class="input-group">
+                        <span class="input-group-text">PIX:</span>
+                        <input type="text" class="form-control" value="admatriz@adalagoas.org.br" id="pixKey" readonly>
+                        <button class="btn btn-outline-secondary" type="button" id="copyButton">
+                            <i class="bi bi-clipboard"></i> Copiar
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="qrCodeModal10" tabindex="-1" aria-labelledby="qrCodeModalLabel10" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="qrCodeModalLabel10">Doe R$ 10 via PIX</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Aponte a câmera para o QR Code abaixo para doar R$ 10.</p>
+                    <img src="/imgs/PIX/pix10.jpg" alt="QR Code PIX para 10 Reais" class="img-fluid mb-3">
+                    <p>Ou use a chave PIX geral:</p>
+                    <div class="input-group">
+                        <span class="input-group-text">PIX:</span>
+                        <input type="text" class="form-control" value="admatriz@adalagoas.org.br" readonly>
+                        <button class="btn btn-outline-secondary" type="button" onclick="navigator.clipboard.writeText('admatriz@adalagoas.org.br')">
+                            <i class="bi bi-clipboard"></i> Copiar
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="qrCodeModal20" tabindex="-1" aria-labelledby="qrCodeModalLabel20" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="qrCodeModalLabel20">Doe R$ 20 via PIX</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Aponte a câmera para o QR Code abaixo para doar R$ 20.</p>
+                    <img src="/imgs/PIX/pix20.jpg" alt="QR Code PIX para 20 Reais" class="img-fluid mb-3">
+                    <p>Ou use a chave PIX geral:</p>
+                       <div class="input-group">
+                        <span class="input-group-text">PIX:</span>
+                        <input type="text" class="form-control" value="admatriz@adalagoas.org.br" readonly>
+                        <button class="btn btn-outline-secondary" type="button" onclick="navigator.clipboard.writeText('admatriz@adalagoas.org.br')">
+                            <i class="bi bi-clipboard"></i> Copiar
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="qrCodeModal30" tabindex="-1" aria-labelledby="qrCodeModalLabel30" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="qrCodeModalLabel30">Doe R$ 30 via PIX</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p>Aponte a câmera para o QR Code abaixo para doar R$ 30.</p>
+                    <img src="/imgs/PIX/pix30.jpg" alt="QR Code PIX para 30 Reais" class="img-fluid mb-3">
+                    <p>Ou use a chave PIX geral:</p>
+                       <div class="input-group">
+                        <span class="input-group-text">PIX:</span>
+                        <input type="text" class="form-control" value="admatriz@adalagoas.org.br" readonly>
+                        <button class="btn btn-outline-secondary" type="button" onclick="navigator.clipboard.writeText('admatriz@adalagoas.org.br')">
+                            <i class="bi bi-clipboard"></i> Copiar
+                        </button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="modal fade" id="galeriaModal" tabindex="-1" aria-labelledby="galeriaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="galeriaModalLabel">Andamento da Obra</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="construcaoCarousel" class="carousel slide shadow-sm rounded" data-bs-ride="carousel">
+                        <div class="carousel-inner rounded">
+                            <div class="carousel-item active">
+                                <img src="/imgs/obra.jpg" class="d-block w-100" alt="Foto da construção 1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/imgs/obra 2.jpg" class="d-block w-100" alt="Foto da construção 2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="/imgs/obra 3.jpg" class="d-block w-100" alt="Foto da construção 3">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#construcaoCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#construcaoCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+                   <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="eventosModal" tabindex="-1" aria-labelledby="eventosModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-xl modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="eventosModalLabel">Galeria de Eventos</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row g-3" id="galeria-eventos-body">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="imageZoomModal" tabindex="-1" aria-labelledby="imageZoomModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content" style="background-color: transparent; border: none;">
+          <div class="modal-body text-center p-0">
+            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close" style="position: absolute; top: 1rem; right: 1rem; z-index: 20;"></button>
+            <img src="" id="zoomedImage" class="img-fluid" style="max-height: 90vh; object-fit: contain;">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="welcomeModal" tabindex="-1" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="welcomeModalLabel">Projeto Neemias</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body text-center">
+                    <p class="lead">Construção do Templo</p>
+                    <img src="/imgs/novo templo.jpeg" alt="Construção do Templo" class="img-fluid rounded my-3">
+                    <i class="fa-solid fa-cross fa-2x"></i>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <button type="button" id="helpButton" class="btn btn-lg btn-custom-dark" data-bs-dismiss="modal">Ajudar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="/static/index.js"></script>
+    
+</body>
+</html>
