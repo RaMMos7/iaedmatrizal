@@ -10,11 +10,13 @@
     --color-off-white: #fffaf5;
 }
 
-body {
+/* <-- A CORREÇÃO AGORA ESTÁ APLICADA NO HTML E NO BODY */
+html, body {
     font-family: var(--font-secondary);
     background-color: var(--color-off-white);
     color: var(--color-dark);
-    overflow-x: hidden; /* <-- CORREÇÃO 1: Impede a barra de rolagem horizontal */
+    width: 100%;
+    overflow-x: hidden; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -64,7 +66,6 @@ h1, h2, h3, h4, h5, h6 {
 /* --- HERO SECTION --- */
 #hero {
     position: relative;
-    /* <-- CORREÇÃO 2: Caminho ajustado para funcionar no GitHub Pages */
     background: url('../imgs/IMG_1749.JPG') no-repeat center center;
     background-size: cover;
     background-attachment: fixed; /* Efeito Parallax */
