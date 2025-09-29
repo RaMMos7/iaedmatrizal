@@ -38,30 +38,30 @@
             const eventos = {
                 'impacto-jovem': {
                     titulo: 'Impacto Jovem',
-                    imagemPrincipal: '/imgs/collection.png', 
+                    imagemPrincipal: 'imgs/collection.png', 
                     galeria: [
-                        '/imgs/IMG_1780 (1).JPG',
-                        '/imgs/IMG_1802 (1).JPG',
-                        '/imgs/IMG_1756 (1).JPG',
-                        '/imgs/IMG_1760 (1).JPG',
-                        '/imgs/IMG_1772 (1).JPG',
-                        '/imgs/IMG_1787 (1).JPG'
+                        'imgs/IMG_1780 (1).JPG',
+                        'imgs/IMG_1802 (1).JPG',
+                        'imgs/IMG_1756 (1).JPG',
+                        'imgs/IMG_1760 (1).JPG',
+                        'imgs/IMG_1772 (1).JPG',
+                        'imgs/IMG_1787 (1).JPG'
                     ]
                 },
                 'congresso-senhoras': {
                     titulo: 'Restaurando Vasos Quebrados',
-                    imagemPrincipal: '/imgs/IMGVASO/restaurandovasos.png', 
+                    imagemPrincipal: 'imgs/IMGVASO/restaurandovasos.png', 
                     galeria: [
-                        '/imgs/IMGVASO/IMG_0633.cr2',
-                        '/imgs/IMGVASO/IMG_0635.cr2',
-                        '/imgs/IMGVASO/IMG_0638.cr2',
-                        '/imgs/IMGVASO/IMG_0640.cr2',
-                        '/imgs/IMGVASO/IMG_0641.cr2',
-                        '/imgs/IMGVASO/IMG_0642.cr2',
-                        '/imgs/IMGVASO/IMG_0647.cr2',
-                        '/imgs/IMGVASO/IMG_0659.cr2',
-                        '/imgs/IMGVASO/IMG_0661.cr2',
-                        '/imgs/IMGVASO/IMG_0662.cr2'
+                        'imgs/IMGVASO/IMG_0633.cr2',
+                        'imgs/IMGVASO/IMG_0635.cr2',
+                        'imgs/IMGVASO/IMG_0638.cr2',
+                        'imgs/IMGVASO/IMG_0640.cr2',
+                        'imgs/IMGVASO/IMG_0641.cr2',
+                        'imgs/IMGVASO/IMG_0642.cr2',
+                        'imgs/IMGVASO/IMG_0647.cr2',
+                        'imgs/IMGVASO/IMG_0659.cr2',
+                        'imgs/IMGVASO/IMG_0661.cr2',
+                        'imgs/IMGVASO/IMG_0662.cr2'
                     ]
                 }
             };
