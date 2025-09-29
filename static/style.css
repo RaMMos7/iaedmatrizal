@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 /* --- HERO SECTION --- */
 #hero {
     position: relative;
-    background: url('/imgs/IMG_1749\ \(1\).JPG') no-repeat center center;
+    background: url('imgs/IMG_1749\ \(1\).JPG') no-repeat center center;
     background-size: cover;
     background-attachment: fixed; /* Efeito Parallax */
     color: white;
