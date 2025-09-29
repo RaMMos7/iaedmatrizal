@@ -40,12 +40,12 @@
                     titulo: 'Impacto Jovem',
                     imagemPrincipal: 'imgs/collection.png', 
                     galeria: [
-                        'imgs/IMG_1780 (1).JPG',
-                        'imgs/IMG_1802 (1).JPG',
-                        'imgs/IMG_1756 (1).JPG',
-                        'imgs/IMG_1760 (1).JPG',
-                        'imgs/IMG_1772 (1).JPG',
-                        'imgs/IMG_1787 (1).JPG'
+                        'imgs/IMG_1780.JPG',
+                        'imgs/IMG_1802.JPG',
+                        'imgs/IMG_1756.JPG',
+                        'imgs/IMG_1760.JPG',
+                        'imgs/IMG_1772.JPG',
+                        'imgs/IMG_1787.JPG'
                     ]
                 },
                 'congresso-senhoras': {
