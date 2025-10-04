@@ -227,3 +227,8 @@ h1, h2, h3, h4, h5, h6 {
         max-height: 300px;
     }
 }
+/*icon neemias */
+.neemias-icon {
+    max-width: 90px;  /* Ajuste o tamanho aqui se precisar */
+    height: auto;
+}
