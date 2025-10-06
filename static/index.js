@@ -52,16 +52,16 @@
                     titulo: 'Restaurando Vasos Quebrados',
                     imagemPrincipal: 'imgs/IMGVASO/restaurandovasos.png', 
                     galeria: [
-                        'imgs/IMGVASO/IMG_0633.cr2',
-                        'imgs/IMGVASO/IMG_0635.cr2',
-                        'imgs/IMGVASO/IMG_0638.cr2',
-                        'imgs/IMGVASO/IMG_0640.cr2',
-                        'imgs/IMGVASO/IMG_0641.cr2',
-                        'imgs/IMGVASO/IMG_0642.cr2',
-                        'imgs/IMGVASO/IMG_0647.cr2',
-                        'imgs/IMGVASO/IMG_0659.cr2',
-                        'imgs/IMGVASO/IMG_0661.cr2',
-                        'imgs/IMGVASO/IMG_0662.cr2'
+                        'imgs/IMGVASO/IMG_0633.JPG',
+                        'imgs/IMGVASO/IMG_0635.JPG',
+                        'imgs/IMGVASO/IMG_0638.JPG',
+                        'imgs/IMGVASO/IMG_0640.JPG',
+                        'imgs/IMGVASO/IMG_0641.JPG',
+                        'imgs/IMGVASO/IMG_0642.JPG',
+                        'imgs/IMGVASO/IMG_0647.JPG',
+                        'imgs/IMGVASO/IMG_0659.JPG',
+                        'imgs/IMGVASO/IMG_0661.JPG',
+                        'imgs/IMGVASO/IMG_0662.JPG',
                     ]
                 }
             };
