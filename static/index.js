@@ -52,7 +52,6 @@
                     titulo: 'Restaurando Vasos Quebrados',
                     imagemPrincipal: 'imgs/IMGVASO/restaurandovasos.png', 
                     galeria: [
-                        'imgs/IMGVASO/IMG_0633.jpg',
                         'imgs/IMGVASO/IMG_0635.jpg',
                         'imgs/IMGVASO/IMG_0638.jpg',
                         'imgs/IMGVASO/IMG_0640.jpg',
