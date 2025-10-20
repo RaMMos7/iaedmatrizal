@@ -131,6 +131,22 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+/* Estilo customizado para o botão "Outro Valor" (Tom Verde-Oliva) */
+#btn-outro-valor {
+  background-color: #5c6e58;  /* Verde-oliva escuro */
+  border-color: #5c6e58;
+  color: #ffffff;             /* Texto branco */
+}
+
+/* Efeito ao passar o mouse */
+#btn-outro-valor:hover {
+  background-color: #4a5946;  /* Tom de verde um pouco mais escuro */
+  border-color: #4a5946;
+  color: #ffffff;
+}
+
+
+
 
 /* --- CORES DE FUNDO DAS SEÇÕES --- */
 .bg-tan { background-color: var(--color-tan) !important; }
